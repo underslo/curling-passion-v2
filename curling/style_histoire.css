@@ -1,0 +1,127 @@
+body
+{
+	margin:0px;    /* on suprime les marges par défault de la page */
+	margin-top:0px;
+	background-image: url("fond-glace.jpg");  /* image de fond de la page */
+	font-size: 100%;
+}
+
+
+div
+{
+	text-align:center;  /* a l'interieur des div le texte est centré */
+}
+
+
+
+
+#tete img  /* on met en place le bandeau passion curling */
+{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;
+	height:90px;
+}
+
+
+
+
+
+#menu   
+{
+	display:inline;  /* on met le menu en ligne(comme du texte) pour la mise en page */
+}
+
+
+#menu li  /* chacune des cases du menu*/
+{
+	display:inline-block; 
+	width:18%;
+	height:50px;
+	border:1px solid white;  
+	line-height:50px;   
+}
+
+#menu li a  /* le lien clickable */
+{
+	text-decoration:none;  /* on suprime le soulignage */
+	color:white;           /* le texte est blanc */
+	display:block;         /* toute la case deviens clickable */
+	background-color:#5BD4C5;     /* la couleur de fond */
+}
+
+#menu li a:hover  /* la couleur change quand on passe sa souris dessus */
+{
+	background-color:#41B3A4;	
+}
+
+#menu ul  /* la liste du menu */
+{
+	list-style-type:none;  /* on supprime les puces de la liste */
+	text-align: center; 
+}
+
+
+
+
+
+
+#blocg  /* le bloc de gauche (image) */
+{
+	width: 25%;
+	display:inline-block;
+	vertical-align: 60px; 
+	overflow: hidden; /* on empeche le bloc gauche (pour l'image) et le texte de se superposer si on réduit la page */
+}
+
+#txtprincipal /* le bloc ddu centre avec le texte */
+{
+	width:48%;
+	display:inline-block;
+}
+
+
+#blocd  /* le bloc de droite (image) */
+{
+	padding-top:0px;
+	width: 25%;
+	display:inline-block;
+	vertical-align: 60px;
+	overflow: hidden; 	/* pareil que pour le bloc gauche, on empeche l'image de superposer le texte */
+}
+
+
+
+
+
+.imagebordure
+{
+	border:2px solid blue; /* une bordure bleue qui encadre les images pour un meilleur design */
+}
+
+
+
+.lien  /* on encadre le lien redirigeable et on raproche le cadre avec une marge */
+{
+	border:1.8px dashed black;    
+	margin-left: 43%;
+	margin-right: 43%;
+}
+
+.lien a
+{
+	text-decoration:none; /* on enleve le soulignement du lien */
+	display:block;   /* on fais en sorte que toute la zone soit clickable */
+}
+
+
+
+
+
+
+
+
+
+
+

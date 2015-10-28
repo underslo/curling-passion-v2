@@ -1,0 +1,54 @@
+#menu{
+	display:inline;
+	
+}
+
+
+#menu li{
+	display:inline-block;
+	width:18%;
+	height:50px;
+	border:1px solid white;
+	line-height:50px;
+	
+}
+
+#menu li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	background-color:#5BD4C4;
+}
+
+#menu li a:hover{
+	background-color:#41B3A4;	
+}
+
+#menu ul{
+	list-style-type:none;
+	text-align: center;
+	
+	
+}
+
+body{
+	background-image: url("fond-glace.jpg");
+	font-size: 125%;
+}
+
+#corps_page{
+
+	border: solid white 2px;
+	margin-left: 6%;
+	margin-right: 4%;
+	background-color: rgba(185, 225, 246, 0.5);
+
+}
+
+#tete img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;
+	height:90px;
+}
