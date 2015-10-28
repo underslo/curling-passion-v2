@@ -1,0 +1,88 @@
+body
+{
+    width:70%;margin:auto;min-width:1050px;
+    background-image: url(fond-glace.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#tete img 
+{
+    width: 100%;
+}
+
+#menu
+{
+    display:inline;
+    border-collapse: collapse;
+}
+
+
+#menu li
+{
+    display:inline-block;
+    width:18%;
+    border:1px solid white;
+    line-height:50px;
+    border-collapse: collapse;
+}
+
+#menu li a
+{
+    text-decoration:none;
+    color:white;
+    display:block;
+    background-color:#5BD4C4;
+}
+
+#menu li a:hover
+{
+    background-color:#41B3A4;    
+}
+
+#menu ul
+{
+    
+    list-style-type:none;
+    text-align: center;
+
+}
+
+#Conteneur
+{
+   
+    background-color: rgba(185, 225, 246, 0.5);
+}
+
+
+h1
+{
+    text-align: center;
+}
+
+
+img 
+{
+    border: 5px solid white;
+}
+
+#image1
+{
+    display: block;
+    float: right;
+    padding-left: 20px;
+}
+
+#image2
+{
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+
+#baspage p 
+{
+    text-align: center;
+}
+
